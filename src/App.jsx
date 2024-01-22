@@ -1,8 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import StateTut from "./stateTut";
+import ColorPicker from "./colorPicker";
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+/>;
 
 function App() {
-  return <StateTut></StateTut>;
+  return <ColorPicker></ColorPicker>;
 }
 
 export default App;
